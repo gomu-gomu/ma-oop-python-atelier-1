@@ -1,9 +1,7 @@
 '''
   @name: Oussama Essamadi
 '''
+les_variable = __import__('1-les-variables').main
 
-def main():
-  print('Hello, World!')
-
-if __name__ == '__init__':
-  main()
+if __name__ == '__main__':
+		les_variable()
