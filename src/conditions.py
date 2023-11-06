@@ -20,8 +20,8 @@ def question31c(val1, val2):
        print('La premier et la deuxième valeurs sont pas égaux')
 
 def main():
-    val1 = float(input('Entere la premier valeur:'))
-    val2 = float(input('Entere la deuxième valeur:'))
+    val1 = float(input('Entrer la premier valeur:'))
+    val2 = float(input('Entrer la deuxième valeur:'))
 
     print("[31 a - Écrire un programme conditions.py qui demande de saisir 2 valeurs numériques et qui affiche la plus petite des 2 valeurs]:")
     question31a(val1, val2)

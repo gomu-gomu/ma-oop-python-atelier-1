@@ -6,6 +6,7 @@ liste_langages = __import__('liste_langages').main
 tuple_bio = __import__('tuple_bio').main
 dictionnaire = __import__('dictionnaire').main
 conditions = __import__('conditions').main
+longeur_chaine = __import__('longeur_chaine').main
 
 if __name__ == '__main__':
 		tp1()
@@ -13,3 +14,4 @@ if __name__ == '__main__':
 		tuple_bio()
 		dictionnaire()
 		conditions()
+		longeur_chaine()

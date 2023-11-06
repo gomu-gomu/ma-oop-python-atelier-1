@@ -80,7 +80,7 @@ def question7():
 
 # 8 -  Ecrire un programme qui transforme un nombre de base décimale vers la base binaire, et puis renvoyer son adresse mémoire.
 def question8():
-	base10 = float(input('Entere un décimale: '))
+	base10 = float(input('Entrer un décimale: '))
 	base2 = bin(int(base10))
 
 	print(f"la valeur {base10} est {base2} en binaire")
