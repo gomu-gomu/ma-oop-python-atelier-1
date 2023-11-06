@@ -7,6 +7,7 @@ tuple_bio = __import__('tuple_bio').main
 dictionnaire = __import__('dictionnaire').main
 conditions = __import__('conditions').main
 longeur_chaine = __import__('longeur_chaine').main
+boucles = __import__('boucles').main
 
 if __name__ == '__main__':
 		tp1()
@@ -15,3 +16,4 @@ if __name__ == '__main__':
 		dictionnaire()
 		conditions()
 		longeur_chaine()
+		boucles()
