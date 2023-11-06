@@ -1,7 +1,13 @@
 '''
   @name: Oussama Essamadi
 '''
-les_variable = __import__('1-les-variables').main
+tp1 = __import__('tp1').main
+liste_langages = __import__('liste_langages').main
+tuple_bio = __import__('tuple_bio').main
+dictionnaire = __import__('dictionnaire').main
 
 if __name__ == '__main__':
-		les_variable()
+		tp1()
+		liste_langages()
+		tuple_bio()
+		dictionnaire()
